@@ -17,6 +17,6 @@ sudo dhclient wlan0
 # a network connection is established
 
 #Run network test commands
-ping -c 100 genesi-tech.com &
-sudo ping -f localhost &
+ping -c 100 google.com &
+sudo ping -f genesi-tech.com &
 wget -b http://www.ubuntu.com/start-download?distro=desktop&bits=32&release=lts &
